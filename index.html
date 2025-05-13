@@ -36,7 +36,94 @@
           }
               i++  
         }
+   var text = "The New Yorker magazine doesnt allow the phrase World War II ";
+   for(var i= 0 ; i < text.length ; i++){
+      if( text.slice(i, i+ 12 ) === "World War II" ){
+       newtext = text.slice(0,i) + "the Second World War" + text.slice( i + 12);
+        console.log(newtext);
+        
+      }
+   };
+   
+        //    var str = "video ipsum dolo sit amet consectetur orem adipisicing elit. Porro adipisci aliquid eaque vero dovideo video et deserunt quibusdam tempore facere quo?";
+        //    var count = 0;
+        //    var length = str.length;
+        //    for (var i = 0; i < length; i++) {
+        //       if (str.slice(i, i + 1) === " ") {           
+        //            count++;
+        //         }
+        //     }
 
+        //    console.log(`The number of spaces is found ${count} times.`);
+
+
+//            var str =  "video ipsum dolo sit amet consectetur oremadipisicing elit. Porro adipisci aliquid eaque vero dovideo video et deserunt  quibusdam tempore facere quo?";
+//  var numChars = str.length;
+//  var count = 0;
+//  for (var i = 0; i < numChars; i++) {
+//  if (str.slice(i, i + 1) === " ") {
+//  count++;
+// }
+//  }
+//  console.log(`The number of spaces is found ${count} times.`);
+
+
+    // var str ="video ipsum dolor sit amet consectetur orem adipisicing elit. Porro adipisci aliquid eaque vero dovideo video et deserunt quibusdam tempore facere quo?";
+    // text = str.length;
+    // count = 0;
+    // for(var i = 0 ; i < text ; i++){
+    //     if(text[i] === " "){
+    //          count++        
+    //     }
+    // }
+    // console.log(`the gaps is found is ${count} times`);
+
+    // var text = "video ipsum dolor sit amet consectetur orem adipisicing elit. Porro adipisci aliquid eaque vero dovideo video et deserunt quibusdam tempore facere quo?";
+    // userWords = "video";
+    // count = 0;
+    // newtext = text.length;
+    // for(var i = 0 ; i <  newtext; i++){
+    //     if(text.slice(i ,i +  userWords.length) === userWords ){
+    //       count++
+    //     };
+    // };
+    // console.log(`the match is found ${ userWords} ${count} times`);
+
+
+
+
+            //  var text = "video ipsum dolor sit amet consectetur orem adipisicing elit. Porro adipisci aliquid eaque vero dovideo video et deserunt quibusdam tempore facere quo?";
+            // count = 0;
+            // newtext = text.length;
+            //   for(var i = 0 ; i < newtext ; i++){
+            //    if(text[i] === " " ){
+            //    count++
+            //   };
+            //  };
+            //   console.log(`the gaps is found  ${count} times`);    
+   
+
+
+
+    //   var text = "ayyan";
+    //   newText = text.slice(0,1).toUpperCase();
+    //   othertext = text.slice(1).toLocaleLowerCase();
+    //   console.log(newText + othertext);
+      
+    
+    // var text = "ayyan";
+    // newName = text.charAt(0).toUpperCase() + text.slice(1);
+    // console.log(newName);
+
+    // let text =["ayyan","faizan","ali"];
+    // for (let i = 0; i < text.length; i++) {
+        // newtext = text[i].slice(0,1).toUpperCase();
+        // othertext = text[i].slice(1).toLocaleLowerCase();
+        // console.log(newtext + othertext); 
+    //     newText = text[i].charAt(0).toUpperCase() + text[i].slice(1);
+    //     console.log( newText);
+        
+    // };
     </script>
 </body>
 </html>
